@@ -1,0 +1,82 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="cssstyles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">Lattitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Max Temperature</a></li>
+              <li><a href="#">Humidity</a></li>
+              <li><a href="#">Cloudiness</a></li>
+              <li><a href="#">Wind Speed</a></li>
+            </ul>
+            <li><a href="#">Comparrison</a></li>
+          </li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Data</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <span class="blockparagraph1">
+  <h2>Summary: Lattitude vs. X</h2>
+  <p><img src="https://raw.githubusercontent.com/the-Coding-Boot-Camp-at-UT/UTAUS201801DATA2-Class-Repository-DATA/master/Homework/06-Python-APIs/Solutions/output_data/Fig1.png?token=Afe7n3DorqocvrmiHLbW-GfHatGlkVF9ks5a1sKfwA%3D%3D" alt="City Lattitue vs. Max Temperature" style="float:left;width:200px;height:200px;">
+    The purpose of this project was to analyze how weather changes as you get close to the equater. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included temperature, cloudiness, wind speed, and humidity. The site provides the source data and visualizations created as a part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+</span>
+
+  <span class="blockparagraph2">
+    <h2 class="text-left">Visualizations</h2>
+    <span class="row">
+      <span class="col-xs-6 col-md-3">
+        <span class="thumbnail">
+          <img src="https://raw.githubusercontent.com/the-Coding-Boot-Camp-at-UT/UTAUS201801DATA2-Class-Repository-DATA/master/Homework/06-Python-APIs/Solutions/output_data/Fig1.png?token=Afe7n3DorqocvrmiHLbW-GfHatGlkVF9ks5a1sKfwA%3D%3D" alt="City Lattitue vs. Max Temperature">
+        </span>
+      </span>
+      <span class="col-xs-6 col-md-3">
+        <span class="thumbnail">
+          <img src="https://raw.githubusercontent.com/the-Coding-Boot-Camp-at-UT/UTAUS201801DATA2-Class-Repository-DATA/master/Homework/06-Python-APIs/Solutions/output_data/Fig2.png?token=Afe7n6tli7uhAr0Nq1coueDyLLeA91tIks5a1sL6wA%3D%3D" alt="City Lattitue vs. Humidity">
+        </span>
+      </span>
+      <span class="col-xs-6 col-md-3">
+        <span class="thumbnail">
+          <img src="https://raw.githubusercontent.com/the-Coding-Boot-Camp-at-UT/UTAUS201801DATA2-Class-Repository-DATA/master/Homework/06-Python-APIs/Solutions/output_data/Fig3.png?token=Afe7n6q_WnfYuxxx50gDVP4aE6BUCw5xks5a1sMkwA%3D%3D" alt="City Lattitue vs. Cloudiness">
+        </span>
+      </span>
+        <span class="col-xs-6 col-md-3">
+        <span class="thumbnail">
+          <img src="https://raw.githubusercontent.com/the-Coding-Boot-Camp-at-UT/UTAUS201801DATA2-Class-Repository-DATA/master/Homework/06-Python-APIs/Solutions/output_data/Fig4.png?token=Afe7n1YwtruosKI898p3b-JHou53FIFJks5a1sObwA%3D%3D" alt="City Lattitue vs. Cloudiness">
+        </span>
+      </span>
+    </span>
+
+<footer>Heather Solis - Data Analytics and Visualization</footer>
+
+</body>
